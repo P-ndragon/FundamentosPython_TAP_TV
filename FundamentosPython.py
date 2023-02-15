@@ -25,4 +25,16 @@ if __name__ == "__main__":
 	print ("== es igual", 5==5)
 	print ("!= distinto a", 3!=4)
 
-	print ("Hola")
+	nuevoTema("Enteros")
+	w = 105
+	y = 2074074834387878898
+	x = -345
+	z = 0b00110011 #es un numero binaro y lo traduce
+	h = 0xffa #es un numero exadecimal
+
+	print (w, type(w))
+	print (x, type(x))
+	print (y, type(x))
+	print (z,type(z))
+	print (h,type (h))
+
